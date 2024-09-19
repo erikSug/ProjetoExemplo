@@ -1,6 +1,6 @@
 // alert("Ola mundo - externo")
 
- // Declarando as variáveis
+ // Declarando as variáveis com valor
 
  var nome = "fiap";
 
@@ -11,3 +11,13 @@
 
  const nome2 = "javascript"
  console.log(nome2)
+
+ // Outras declarações
+
+// Declaração indefinida
+let nome3;
+console.log(nome3)
+
+let disciplina = null;
+console.log(disciplina)
+
