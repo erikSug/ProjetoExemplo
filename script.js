@@ -2,6 +2,7 @@
 
  // Declarando as variáveis com valor
 
+ /*
  var nome = "fiap";
 
  console.log(nome)
@@ -43,3 +44,23 @@ console.log(aluno)
 let tecnologias = ["JAVA","C#","HTML","CSS"];
 console.log(tecnologias)
 
+*/
+
+// Convertendo variáveis
+let number_float = 100.01230;
+console.log(parseInt(number_float));
+
+// Convertendo para float
+
+let numero_string = "512"
+console.log(parseFloat(numero_string))
+
+// Convertendo de numero inteiro para string
+
+let numeroInteiro = 1011231;
+console.log(numeroInteiro.toString())
+
+// Ver o tipo da variável
+
+let verTipo = typeof(numeroInteiro)
+console.log(verTipo)
